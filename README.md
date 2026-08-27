@@ -1,5 +1,5 @@
 
-Professional portfolio showcasing my computing, cybersecurity, and professional projects.
+
 # Professional Portfolio
 
 This repository contains my professional portfolio website, highlighting my background, education, technical skills, and projects as I continue developing my experience in computing and cybersecurity.
