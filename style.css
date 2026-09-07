@@ -463,7 +463,9 @@ button:focus-visible {
 ======================================== */
 
 @media (max-width: 768px) {
-
+.project-filters {
+    justify-content: center;
+}
     .header-content {
         flex-direction: column;
         justify-content: center;
@@ -513,7 +515,14 @@ button:focus-visible {
 ======================================== */
 
 @media (max-width: 480px) {
+.project-filters {
+    flex-direction: column;
+}
 
+.filter-btn {
+    width: 100%;
+    text-align: center;
+}
     .container {
         width: min(92%, 1100px);
     }
