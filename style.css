@@ -256,6 +256,10 @@ ul {
    Homepage Overview
 ======================================== */
 
+.overview {
+    padding: 3rem 0 4rem;
+    background-color: #ece7dd;
+}
 .overview-heading {
     max-width: 700px;
     margin: 0 auto 3rem;
