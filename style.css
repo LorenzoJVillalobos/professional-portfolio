@@ -256,18 +256,31 @@ ul {
    Homepage Overview
 ======================================== */
 
-.overview {
-    padding: 5rem 0;
-    background-color: #ece7dd;
+.overview-heading {
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    text-align: center;
 }
 
-.overview h2 {
-    margin-bottom: 2rem;
+.overview-heading h2 {
+    margin-bottom: 0.75rem;
     color: #2f4f3e;
-    text-align: center;
     font-size: 2rem;
 }
 
+.overview-heading p {
+    color: #4d554f;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+.card-number {
+    display: block;
+    margin-bottom: 1rem;
+    color: #7a8f69;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+}
 .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
