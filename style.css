@@ -129,7 +129,18 @@ ul {
     display: flex;
     align-items: center;
     color: #f5f1e8;
-    background-color: #3b5a46;
+
+    background-image:
+        linear-gradient(
+            rgba(30, 48, 38, 0.75),
+            rgba(30, 48, 38, 0.75)
+        ),
+        url("images/desert.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 }
 
 .hero-content {
