@@ -145,7 +145,7 @@ ul {
 }
 
 .hero-content {
-    max-width: 850px;
+    max-width: 1000px;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -160,7 +160,7 @@ ul {
 }
 
 .hero h1 {
-    max-width: 900px;
+    max-width: 1000px;
     margin-bottom: 1.5rem;
     font-size: clamp(2.4rem, 6vw, 4.8rem);
     line-height: 1.08;
