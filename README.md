@@ -45,11 +45,3 @@ The GitHub repository is available here:
 
 **https://github.com/LorenzoJVillalobos/professional-portfolio**
 
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-- Git and GitHub
-- GitHub Pages
-
