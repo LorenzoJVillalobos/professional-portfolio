@@ -53,6 +53,3 @@ The GitHub repository is available here:
 - Git and GitHub
 - GitHub Pages
 
-## Live Website
-
-https://lorenzojvillalobos.github.io/professional-portfolio/
