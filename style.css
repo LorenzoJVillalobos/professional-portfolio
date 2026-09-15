@@ -500,6 +500,83 @@ ul {
 .contact-message p + p {
     margin-top: 1rem;
 }
+/* Contact Form */
+
+.contact-form-card {
+    max-width: 800px;
+    margin: 2rem auto 0;
+}
+
+.contact-form-card > p {
+    margin-bottom: 1.5rem;
+}
+
+#contact-form {
+    display: grid;
+    gap: 1.25rem;
+}
+
+.form-group {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    color: #2f4f3e;
+    font-weight: 700;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    color: #2d2d2d;
+    background-color: #ffffff;
+    border: 2px solid #d8cbb3;
+    border-radius: 6px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.form-group textarea {
+    min-height: 160px;
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #2f4f3e;
+    box-shadow: 0 0 0 3px rgba(47, 79, 62, 0.15);
+}
+
+.form-submit {
+    width: fit-content;
+    cursor: pointer;
+}
+
+.form-submit:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.form-status {
+    min-height: 1.5rem;
+    font-weight: 700;
+}
+
+.form-status.success {
+    color: #2f4f3e;
+}
+
+.form-status.error {
+    color: #9b2c2c;
+}
 
 /* ========================================
    Footer
@@ -583,13 +660,18 @@ button:focus-visible {
 ======================================== */
 
 @media (max-width: 480px) {
-.project-filters {
-    flex-direction: column;
-}
+    .project-filters {
+        flex-direction: column;
+    }
 
-.filter-btn {
-    width: 100%;
-    text-align: center;
+    .form-submit {
+        width: 100%;
+    }
+
+    .filter-btn {
+        width: 100%;
+        text-align: center;
+    }
 }
     .container {
         width: min(92%, 1100px);
