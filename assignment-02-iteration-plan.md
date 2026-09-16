@@ -1,4 +1,4 @@
-CS 4303 – Week 05 – Assignment 02: Iteration Plan
+CS 4303 – Assignment 02: Iteration Plan
 
 1. P01 Evaluation
 
